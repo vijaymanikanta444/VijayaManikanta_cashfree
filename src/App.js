@@ -1,11 +1,12 @@
 import './App.css';
-import Button from './components/Button';
+import GridTest from './components/GridTest';
+import ButtonTest from './components/ButtonTest';
 
 function App() {
   return (
     <div className="App">
-      <h1>hi</h1>
-      <Button />
+      <ButtonTest />
+      <GridTest />
     </div>
   );
 }
